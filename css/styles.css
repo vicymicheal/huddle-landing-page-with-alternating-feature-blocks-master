@@ -11,6 +11,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -393,7 +394,7 @@ i:hover {
 
    .position {
     max-width: 450px;
-    left: 10rem;
+    left: 3.5rem;
     top: 3rem;
     right: 10rem;
    }
@@ -426,4 +427,10 @@ i:hover {
     justify-content: space-between;
    }
 
+}
+
+@media (min-width: 900px) {
+    .position {
+        left: 9rem;
+    }
 }
