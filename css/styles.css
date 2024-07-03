@@ -273,7 +273,6 @@ footer {
   color: white;
   font-family: 'Open Sans', sans-serif;
   cursor: pointer;
-  padding-bottom: 0.25rem;
 }
 
 .info-link:hover {
@@ -301,6 +300,8 @@ i:hover {
   opacity: 0.85;
   transform: scale(1.08);
   transition: 0.8s;
+  color: var(--Pink);
+  border: 1px solid var(--Pink);
 }
 
 .socials {
